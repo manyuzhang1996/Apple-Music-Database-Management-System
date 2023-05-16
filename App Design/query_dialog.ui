@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Query</class>
+ <widget class="QDialog" name="Query">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>939</width>
+    <height>639</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>220</y>
+     <width>861</width>
+     <height>381</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>70</y>
+     <width>394</width>
+     <height>142</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_6">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>Gender:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="gender_comboBox">
+            <item>
+             <property name="text">
+              <string>all</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>female</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>male</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>Age:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="age_comboBox">
+            <item>
+             <property name="text">
+              <string>all</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>16-35</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>35-60</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>60+</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Specific Age: </string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="start_age_lineEdit">
+            <property name="placeholderText">
+             <string>start</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>To</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="end_age_lineEdit">
+            <property name="placeholderText">
+             <string>end</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="music_submit_button">
+        <property name="text">
+         <string>submit</string>
+        </property>
+        <property name="autoDefault">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>33</y>
+     <width>359</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Analysis of People’s Music Preference</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>30</y>
+     <width>394</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Analysis of Track Sales Performance</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <widget class="QLabel" name="label_9">
+          <property name="text">
+           <string>Location:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="city_comboBox">
+          <item>
+           <property name="text">
+            <string>City</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>all</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="state_comboBox">
+          <item>
+           <property name="text">
+            <string>State</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>all</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="country_comboBox">
+          <item>
+           <property name="text">
+            <string>Country</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>all</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QLabel" name="label_10">
+          <property name="text">
+           <string>Date:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="week_comboBox">
+          <item>
+           <property name="text">
+            <string>Week</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Monday</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Tuesday</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Wednesday</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Thursday</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Friday</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Saturday</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Sunday</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>all</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="month_comboBox">
+          <item>
+           <property name="text">
+            <string>Month</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>January</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>February</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>March</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>April</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>May</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>June</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>July</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>August</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>September</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>October</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>November</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>December</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>all</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="year_comboBox">
+          <item>
+           <property name="text">
+            <string>Year</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2009</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2010</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>all</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="2" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QPushButton" name="sales_submit_button">
+          <property name="text">
+           <string>submit</string>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="clear_button">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Clear All</string>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
