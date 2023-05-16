@@ -4,7 +4,8 @@
 A project that constructs a system with relational database and data warehouse for Apple Music Data and builds a App with GUI to access the database management system.
 
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src = "images/Title Page.png" width = "1000">
+
 
 
 ## Skills
@@ -21,11 +22,11 @@ https://github.com/lerocha/chinook-database
 ## Schema
 
 #### Relational Schema
-<img src = "schema/Relational Schema MySQL Workbench Export.png" width = "500">
+<img src = "schema/Relational Schema MySQL Workbench Export.png" width = "600">
 
 
 #### Analytical Schema (Data Warehouse)
-<img src = "schema/Star Schema MySQL Workbench Export.png" width = "500">
+<img src = "schema/Star Schema MySQL Workbench Export.png" width = "600">
 
 
 ## Run Locally
