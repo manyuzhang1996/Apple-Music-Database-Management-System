@@ -16,7 +16,7 @@ Python, SQL, MySQL, GUI, Data Warehousing
 The data source about Apple Music trasaction data and user music preferece data is from this source:
 https://github.com/lerocha/chinook-database
 ## Methodology
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src = "images/Methodology.png" width = "1000">
 
 
 ## Schema
