@@ -21,15 +21,19 @@ https://github.com/lerocha/chinook-database
 ## Schema
 
 #### Relational Schema
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src = "schema/Relational Schema MySQL Workbench Export.png" width = "500">
+
+
 #### Analytical Schema (Data Warehouse)
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src = "schema/Star Schema MySQL Workbench Export.png" width = "500">
+
+
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/manyuzhang1996/Apple-Music-Database-Management-System.git
 ```
 
 ## Demo
