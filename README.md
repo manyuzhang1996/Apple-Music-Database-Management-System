@@ -6,6 +6,14 @@ A project that constructs a system with relational database and data warehouse f
 
 <img src = "images/Title Page.png" width = "1000">
 
+## Demo
+
+Operational System Demo:
+https://youtu.be/-5545FEd0h4
+
+Analytical System Demo:
+https://youtu.be/2vx7gYjQJxE
+
 
 
 ## Skills
@@ -36,10 +44,6 @@ Clone the project
 ```bash
   git clone https://github.com/manyuzhang1996/Apple-Music-Database-Management-System.git
 ```
-
-## Demo
-
-https://youtu.be/-5545FEd0h4
 
 
 ## Contact
